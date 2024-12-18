@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mampa</title>
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/Mampa.css" />
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="nav-cont">
+      <nav>
+        <div class="left-nav">
+          <a href="#"><img class="logo" src="./img/logo2.png" alt="logo" /></a>
+          <a href="#"><i class="fa-solid fa-display nav-icons"></i></a>
+          <a href="#"><i class="fa-solid fa-tablet-screen-button nav-icons"></i></a>
+          <a href="#"><i class="fa-solid fa-mobile-screen-button nav-icons"></i></a>
+        </div>
+        <div class="med">
+          <i class="fa-solid fa-chevron-left icons" style="color: #fff;"></i>
+          <a href="#">Mampa</a>
+          <i class="fa-solid fa-chevron-right icons" style="color: #fff;"></i>
+        </div>
+        <div class="right_nav">
+          <a href="#"
+            ><i
+              class="fa-solid fa-arrow-up-right-from-square upword icons" style="color: #fff;"
+            ></i
+          ></a>
+          <div class="free_download">
+            <a href="#"
+              ><i class="fa-solid fa-download" style="color: #fff"></i
+            ></a>
+            <p>DOWNLOAD</p>
+          </div>
+        </div>
+      </nav>
+
+      <!-- contact nav -->
+      <div class="contact">
+        <div class="mail">
+          <i class="fa-regular fa-envelope" style="color: #6e9ceb"></i>
+          <a href="#">contact@example.com</a>
+          <i class="fa-solid fa-mobile-screen-button" style="color: #6e9ceb"></i>
+          <span>+1 5589 55488 55</span>
+        </div>
+        <div class="social">
+          <a href="#"
+            ><i
+              class="fa-brands fa-x-twitter"
+              style="color: rgb(122, 124, 128)"
+            ></i
+          ></a>
+          <a href="#"
+            ><i
+              class="fa-brands fa-facebook"
+              style="color: rgb(122, 124, 128)"
+            ></i
+          ></a>
+          <a href="#"
+            ><i
+              class="fa-brands fa-instagram"
+              style="color: rgb(122, 124, 128)"
+            ></i
+          ></a>
+          <a href="#"
+            ><i
+              class="fa-brands fa-linkedin"
+              style="color: rgb(122, 124, 128)"
+            ></i
+          ></a>
+        </div>
+      </div>
+      
+      
+      <!-- main nav -->
+      <nav class="navbar navbar-expand-lg  ps-5 p-0">
+        <div class="container-fluid mampa">
+          <h1 class="navbar-brand col-lg-3 col-xl-5" href="#">Mamba</h1>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav list">
+              <li class="nav-item">
+                <a class="nav-link home Active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portofolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Team</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="hide drop-list">
+                  <li><a class="dropdown-item" href="#">Dropdown 1</a></li>
+                    <li class="nav-item deep_dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Deep Dropdown
+                      </a>
+                      <ul class="hide deepDrop-list">
+                        <li><a class="dropdown-item" href="#">Deep Dropdown 1</a></li>
+                        <li><a class="dropdown-item" href="#">Deep dropdown 2</a></li>
+                        <li><a class="dropdown-item" href="#">Deep dropdown 3</a></li>
+                        <li><a class="dropdown-item" href="#">Deep dropdown 4</a></li>
+                        <!-- <li><hr class="dropdown-divider"></li> -->
+                        <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                      </ul>
+                    </li>
+                  <li><a class="dropdown-item" href="#">dropdown 2</a></li>
+                  <li><a class="dropdown-item" href="#">dropdown 3</a></li>
+                  <li><a class="dropdown-item" href="#">dropdown 4</a></li>
+                  <!-- <li><hr class="dropdown-divider"></li> -->
+                  <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+    </div>
+
+
+    <!-- carousal -->
+
+    <div class="caro">
+      
+      <div class="sliders">
+        <div class="slide active">
+          <div class="shadow"></div>
+          <img class="active" src="./img/hero-carousel/hero-carousel-1.jpg" alt="#"/>
+          <div class="text">
+            <h1 data-aos="fade-down" data-aos-duration="1500">Welcome to Mampa</h1>
+            <p data-aos="fade-down" data-aos-duration="1500">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+              ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat
+            </p>
+            <button data-aos="fade-up" data-aos-duration="1500">Get Started</button>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="shadow"></div>
+          <img src="./img/hero-carousel/hero-carousel-2.jpg" alt="" />
+          <div class="text">
+            <h1 data-aos="fade-down" data-aos-duration="1500">At vero eos et accusamus</h1>
+            <p data-aos="fade-down" data-aos-duration="1500">
+              Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
+              impedit quo minus id quod maxime placeat facere possimus, omnis
+              voluptas assumenda est, omnis dolor repellendus.
+            </p>
+            <button data-aos="fade-up" data-aos-duration="1500">Get Started</button>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="shadow"></div>
+          <img src="./img/hero-carousel/hero-carousel-3.jpg" alt="" />
+          <div class="text">
+            <h1 data-aos="fade-down" data-aos-duration="1500">Temporibus autem quibusdam</h1>
+            <p data-aos="fade-down" data-aos-duration="1500">
+              Beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
+              voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur             
+            </p>
+            <button data-aos="fade-up" data-aos-duration="1500">Get Started</button>
+          </div>
+        </div>
+
+      </div>
+      <div class="arrows">
+        <span id="next" onclick="slideNext()"><i class="fa-solid fa-chevron-right fa-xl right"></i></span>
+        <span id="prev"><i class="fa-solid fa-angle-left fa-xl left"></i></span>
+      </div>
+      <div class="scale">
+        <span data-order="0" class="pointer pointerActive"><i class="fa-solid fa-minus fa-2xl"></i></span>
+        <span data-order="1" class="pointer"><i class="fa-solid fa-minus fa-2xl"></i></span>
+        <span data-order="2" class="pointer"><i class="fa-solid fa-minus fa-2xl"></i></span>
+      </div>
+    </div>
+
+    <!-- about -->
+    <div class="about">
+      <div class="head" data-aos="fade-up" data-aos-duration="1500">
+        <h3>About</h3>
+        <p>
+          Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+          consectetur velit
+        </p>
+      </div>
+      <div class="about-sec justify-content-between " >
+        <div class="left-sec" data-aos="fade-up" data-aos-duration="1500">
+          <h3>
+            Voluptatem dignissimos provident laboris nisi ut aliquip ex ea
+            commodo
+          </h3>
+          <img src="./img/about.jpg" alt="about images" />
+          <p>
+            Ut fugiat ut sunt quia veniam. Voluptate perferendis perspiciatis
+            quod nisi et. Placeat debitis quia recusandae odit et consequatur
+            voluptatem. Dignissimos pariatur consectetur fugiat voluptas ea.
+          </p>
+          <p>
+            Temporibus nihil enim deserunt sed ea. Provident sit expedita aut
+            cupiditate nihil vitae quo officia vel. Blanditiis eligendi possimus
+            et in cum. Quidem eos ut sint rem veniam qui. Ut ut repellendus
+            nobis tempore doloribus debitis explicabo similique sit. Accusantium
+            sed ut omnis beatae neque deleniti repellendus.
+          </p>
+          <br><br>
+        </div>
+        <div class="right-sec" data-aos="fade-up" data-aos-duration="1500">
+          <p class="text-secondary fst-italic">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <p>
+            <i class="fa-solid fa-circle-check" style="color: #428bca"></i>
+            Ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+          <p>
+            <i class="fa-solid fa-circle-check" style="color: #428bca"></i> Duis
+            aute irure dolor in reprehenderit in voluptate velit.
+          </p>
+          <div class="check">
+            <i class="fa-solid fa-circle-check" style="color: #428bca"> </i>
+            <p>
+              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+              irure dolor in reprehenderit in voluptate trideta storacalaperda
+              mastiro dolore eu fugiat nulla pariatur.
+            </p>
+          </div>
+          <p>
+            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+            irure dolor in reprehenderit in voluptate velit esse cillum dolore
+            eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident
+          </p>
+          <img src="./img/about-2.jpg" alt="video" />
+        </div>
+      </div>
+    </div>
+
+    <div class="three-div">
+      <div class="division"  data-aos="fade-up" data-aos-duration="1000">
+        <h2><b>01</b></h2>
+        <h4 style="margin-top: 2vh; margin-bottom: 2vh">
+          Lorem Ipsum
+        </h4>
+        <p>
+          Ullamco laboris nisi ut aliquip ex ea commodo consequat.mastiro dolore
+          eu fugiat nulla pariatur.
+        </p>
+      </div>
+      <div class="division" data-aos="fade-up" data-aos-duration="1300">
+        <h2><b>02</b></h2>
+        <h4 style="margin-top: 2vh; margin-bottom: 2vh">
+          Lorem Ipsum
+        </h4>
+        <p>
+          Ullamco laboris nisi ut aliquip ex ea commodo consequat.mastiro dolore
+          eu fugiat nulla pariatur.
+        </p>
+      </div>
+      <div class="division" data-aos="fade-up" data-aos-duration="1500">
+        <h2><b>03</b></h2>
+        <h4 style="margin-top: 2vh; margin-bottom: 2vh">
+          Lorem Ipsum
+        </h4>
+        <p>
+          Ullamco laboris nisi ut aliquip ex ea commodo consequat.mastiro dolore
+          eu fugiat nulla pariatur.
+        </p>
+      </div>
+    </div>
+
+    <!-- no of clients -->
+    <div class="clients">
+      <div class="section">
+        <p class="icon">
+          <i class="fa-regular fa-face-smile fa-xl" style="color: #5a92f2"></i>
+        </p>
+        <h3>235</h3>
+        <p>Happy Clients</p>
+      </div>
+      <div class="section">
+        <p class="icon">
+          <i
+            class="fa-regular fa-rectangle-list fa-xl"
+            style="color: #5a92f2"
+          ></i>
+        </p>
+        <h3>521</h3>
+        <p>Projects</p>
+      </div>
+      <div class="section">
+        <p class="icon">
+          <i
+            class="fa-solid fa-headphones-simple fa-xl"
+            style="color: #5a92f2"
+          ></i>
+        </p>
+        <h3>1493</h3>
+        <p>Hours of Support</p>
+      </div>
+      <div class="section">
+        <p class="icon">
+          <i class="fa-solid fa-user-group fa-xl" style="color: #5a92f2"></i>
+        </p>
+        <h3>15</h3>
+        <p>Hard Workers</p>
+      </div>
+    </div>
+
+    <!-- services -->
+    <div class="services">
+      <div class="ser-head" data-aos="fade-up" data-aos-duration="1500">
+        <h1>Services</h1>
+        <p>
+          Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+          consectetur velit
+        </p>
+      </div>
+
+      <div class="ser-branches">
+        <div class="branches" data-aos="fade-up" data-aos-duration="1000">
+          <p class="signal">
+            <i class="fa-solid fa-wave-square fa-xl" style="color: #4bacf7"></i>
+          </p>
+          <h3>Nesciunt Mete</h3>
+          <p class="line">_________</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+            iste vitae odio possimus, voluptates quos asperiores!
+          </p>
+        </div>
+        <div class="branches" data-aos="fade-up" data-aos-duration="1600">
+          <p class="signal">
+            <i
+              class="fa-solid fa-tower-broadcast fa-xl"
+              style="color: #4bacf7"
+            ></i>
+          </p>
+          <h3>Eosle Comodi</h3>
+          <p class="line">_________</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+            aliquam laborum totam. Repellat et dolores molestias?
+          </p>
+        </div>
+        <div class="branches" data-aos="fade-up" data-aos-duration="2000">
+          <p class="signal">
+            <i class="fa-solid fa-display fa-xl" style="color: #4bacf7"></i>
+          </p>
+          <h3>Ledo Markt</h3>
+          <p class="line">_________</p>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+            sint explicabo laudantium eius tenetur architecto fugiat.
+          </p>
+        </div>
+        <div class="branches" data-aos="fade-up" data-aos-duration="1000">
+          <p class="signal">
+            <i
+              class="fa-solid fa-diagram-project fa-xl"
+              style="color: #4bacf7"
+            ></i>
+          </p>
+          <h3>Asperoris Comodit</h3>
+          <p class="line">_________</p>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+            sint explicabo laudantium eius tenetur architecto fugiat.
+          </p>
+        </div>
+        <div class="branches" data-aos="fade-up" data-aos-duration="1600">
+          <p class="signal">
+            <i class="fa-solid fa-display fa-xl" style="color: #4bacf7"></i>
+          </p>
+          <h3>Velit Dolorimque</h3>
+          <p class="line">_________</p>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+            sint explicabo laudantium eius tenetur architecto fugiat.
+          </p>
+        </div>
+        <div class="branches" data-aos="fade-up" data-aos-duration="2000">
+          <p class="signal">
+            <i
+              class="fa-solid fa-envelope-open-text fa-xl"
+              style="color: #4bacf7"
+            ></i>
+          </p>
+          <h3>Dolori Acomodic</h3>
+          <p class="line">_________</p>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+            sint explicabo laudantium eius tenetur architecto fugiat.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- portofolio -->
+    <div class="portofolio" data-aos="fade-up" data-aos-duration="1500">
+      <h1>Portofolio</h1>
+      <p>
+        Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+        consectetur velit
+      </p>
+    </div>
+    <div id="container">
+      <div id="titles" data-aos="fade-up" data-aos-duration="1500">
+          <button class="blue btn">All</button>
+          <button class="btn">App</button>
+          <button class="btn">Card</button>
+          <button class="btn">Web</button>
+      </div>
+      <div id="images1" data-aos="fade-up" data-aos-duration="1500">
+          <div id="sec-one">
+            <div class="app" >
+              <span><img src="./img/masonry-portfolio/masonry-portfolio-1.jpg" alt="...."></span>
+              <div class="description">
+                <h3>App 1</h3>
+                <p>Lorem ipsum dolor sit.</p>
+              </div>
+            </div>
+            <div class="app">
+              <span><img src="./img/masonry-portfolio/masonry-portfolio-6.jpg" alt="...."></span>
+              <div class="description">
+                <h3>Branding 2</h3>
+                <p>Lorem ipsum dolor sit.</p>
+              </div>
+            </div>
+              
+          </div>
+          <div id="sec-two">
+            <div class="app">
+              <span><img src="./img/masonry-portfolio/masonry-portfolio-2.jpg" alt="...."></span>
+              <div class="description">
+                <h3>App 1</h3>
+                <p>Lorem ipsum dolor sit.</p>
+              </div>
+
+            </div>
+            <div class="app">
+              <span><img src="./img/masonry-portfolio/masonry-portfolio-5.jpg" alt="...."></span>
+              <div class="description">
+                <h3>Product 2</h3>
+                <p>Lorem ipsum dolor sit.</p>
+              </div>
+            </div>  
+            <div class="app">
+              <span><img src="./img/masonry-portfolio/masonry-portfolio-9.jpg" alt="...."></span>
+              <div class="description">
+                <h3>Branding 3</h3>
+                <p>Lorem ipsum dolor sit.</p>
+              </div>
+            </div>
+          </div>
+          <div id="sec-three">
+            <div class="app">
+              <span><img src="./img/masonry-portfolio/masonry-portfolio-3.jpg" alt="...."></span>
+              <div class="description">
+                <h3>Branding 1</h3>
+                <p>Lorem ipsum dolor sit.</p>
+              </div>
+            </div>
+            <div class="app">
+              <span><img src="./img/masonry-portfolio/masonry-portfolio-4.jpg" alt="...."></span>
+              <div class="description">
+                <h3>App 2</h3>
+                <p>Lorem ipsum dolor sit.</p>
+              </div>
+            </div>
+            <div class="app">
+              <span><img src="./img/masonry-portfolio/masonry-portfolio-7.jpg" alt="...."></span>
+              <div class="description">
+                <h3>App 3</h3>
+                <p>Lorem ipsum dolor sit.</p>
+              </div>
+            </div>
+            <div class="app">
+              <span><img src="./img/masonry-portfolio/masonry-portfolio-8.jpg" alt="...."></span>
+              <div class="description">
+                <h3>Product 2</h3>
+                <p>Lorem ipsum dolor sit.</p>
+              </div>
+            </div>
+          </div>
+          
+      </div>  
+  </div>
+
+    <!-- Team -->
+
+    <div class="team" data-aos="fade-up" data-aos-duration="1500">
+      <h1>Team</h1>
+      <p>
+        Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+        consectetur velit
+      </p>
+    </div>
+
+    <!-- team img -->
+    <div class="team_img">
+      <div class="under_image" data-aos="zoom-in" data-aos-duration="1000">
+        <img src="./img/team/team-1.jpg" alt="" />
+        <div class="name">
+          <h4>Walter White</h4>
+          <p>Chief Executive Officer</p>
+        </div>
+        <div class="personal_contact">
+          <a href="#"
+            ><i
+              class="fa-brands fa-x-twitter"
+              style="color: #fff"
+            ></i
+          ></a>
+          <a href="#"
+            ><i
+              class="fa-brands fa-facebook"
+              style="color: #fff"
+            ></i
+          ></a>
+          <a href="#"
+            ><i
+              class="fa-brands fa-instagram"
+              style="color: #fff"
+            ></i
+          ></a>
+          <a href="#"
+            ><i
+              class="fa-brands fa-linkedin"
+              style="color: #fff"
+            ></i
+          ></a>
+        </div>
+      </div>
+      <div class="under_image" data-aos="zoom-in" data-aos-duration="2000">
+        <img src="./img/team/team-2.jpg" alt="" />
+        <div class="name">
+          <h4>Sarah Jhonson</h4>
+          <p>Product Manager</p>
+        </div>
+        <div class="personal_contact">
+          <a href="#"
+            ><i
+              class="fa-brands fa-x-twitter"
+              style="color: #fff"
+            ></i
+          ></a>
+          <a href="#"
+            ><i
+              class="fa-brands fa-facebook"
+              style="color: #fff"
+            ></i
+          ></a>
+          <a href="#"
+            ><i
+              class="fa-brands fa-instagram"
+              style="color: #fff"
+            ></i
+          ></a>
+          <a href="#"
+            ><i
+              class="fa-brands fa-linkedin"
+              style="color: #fff"
+            ></i
+          ></a>
+        </div>
+      </div>
+      <div class="under_image" data-aos="zoom-in" data-aos-duration="3000">
+        <img src="./img/team/team-3.jpg" alt="" />
+        <div class="name">
+          <h4>William Anderson</h4>
+          <p>CTO</p>
+        </div>
+        <div class="personal_contact">
+          <a href="#"
+            ><i
+              class="fa-brands fa-x-twitter"
+              style="color: #fff"
+            ></i
+          ></a>
+          <a href="#"
+            ><i
+              class="fa-brands fa-facebook"
+              style="color: #fff"
+            ></i
+          ></a>
+          <a href="#"
+            ><i
+              class="fa-brands fa-instagram"
+              style="color: #fff"
+            ></i
+          ></a>
+          <a href="#"
+            ><i
+              class="fa-brands fa-linkedin"
+              style="color: #fff"
+            ></i
+          ></a>
+        </div>
+      </div>
+      
+    </div>
+
+
+    <!-- frequently questions -->
+     <div class="questions" data-aos="fade-up" data-aos-duration="1500">
+      <h1>Frequently Asked Questions</h1>
+      <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit </p>
+     </div>
+
+     <div class="asked" data-aos="fade-up" data-aos-duration="1500">
+      <h6><i class="fa-regular fa-circle-question"></i> Non consectetur a erat nam at lectus urna duis?</h6>
+      <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. 
+        Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+      </p>
+     </div>
+     <hr>
+     <div class="asked" data-aos="fade-up" data-aos-duration="1500">
+      <h6><i class="fa-regular fa-circle-question"></i> Feugiat scelerisque varius morbi enim nunc faucibus 
+        a pellentesque?</h6>
+      <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec 
+        ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper
+         dignissim.</p>
+     </div>
+     <hr>
+     <div class="asked" data-aos="fade-up" data-aos-duration="1500">
+      <h6><i class="fa-regular fa-circle-question"></i> Dolor sit amet consectetur adipiscing elit pellentesque
+         habitant morbi?</h6>
+      <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer
+         enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna 
+         duis convallis convallis tellus.
+      </p>
+     </div>
+     <hr>
+     <div class="asked" data-aos="fade-up" data-aos-duration="1500">
+      <h6><i class="fa-regular fa-circle-question"></i> Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?</h6>
+      <p>Aperiam itaque sit optio et deleniti eos nihil quidem cumque. Voluptas dolorum accusantium sunt sit enim. 
+        Provident consequuntur quam aut reiciendis qui rerum dolorem sit odio. Repellat assumenda soluta sunt 
+        pariatur error doloribus fuga.
+      </p>
+    </div>
+    <hr>
+     <div class="asked" data-aos="fade-up" data-aos-duration="1500">
+      <h6><i class="fa-regular fa-circle-question"></i> Tempus quam pellentesque nec nam aliquam sem et tortor consequat?</h6>
+      <p>Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel 
+        risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis
+         blandit turpis cursus in
+      </p>
+     </div>
+
+
+
+     <!-- contact -->
+      <div class="our_contact" data-aos="fade-up" data-aos-duration="1500">
+        <h1>Contact</h1>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <div class="contact-us">
+
+          <div class="address">
+            <a href="#"><i class="fa-solid fa-location-dot fa-2xl"></i></a>
+            <h4>address</h4>
+            <p>A108 Adam Street, New York, NY 535022</p>
+          </div>
+
+          <div class="call">
+            <a href="#"><i class="fa-solid fa-phone fa-2xl"></i></a>
+            <h4>Call us</h4>
+            <p>+1 5589 55488 55</p>
+          </div>  
+          <div class="email">
+            <a href="#"><i class="fa-regular fa-envelope fa-2xl"></i></a>
+            <h4>Email Us</h4>
+            <p>info@example.com</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- inputs -->
+       <div class="inputs">
+        <input type="text" id="name" placeholder="Your Name">
+        <input type="email" id="mail" placeholder="Your Email"><br><br>
+        <input type="text" id="subject" placeholder="Subject"><br><br>
+        <textarea name="message" id="message" placeholder="Message" rows="6"></textarea>
+        <button>Send message</button>
+       </div>
+
+        <!-- footer -->
+        <div class="footer-container">
+          <div class="footer">
+           <div class="mampa-footer">
+             <h3>Mampa</h3>
+             <p style="margin-bottom: 0;">A108 Adam Street</p>
+             <p>New York, NY 535022</p>
+             <p style="margin-bottom: 0;"><B>Phone</B>: +1 5589 55488 55</p>
+             <p><b>Email</b>: info@example.com</p>
+
+             <div class="social">
+              <a href="#"
+                ><i
+                  class="fa-brands fa-x-twitter"
+                  style="color: rgb(122, 124, 128)"
+                ></i
+              ></a>
+              <a href="#"
+                ><i
+                  class="fa-brands fa-facebook"
+                  style="color: rgb(122, 124, 128)"
+                ></i
+              ></a>
+              <a href="#"
+                ><i
+                  class="fa-brands fa-instagram"
+                  style="color: rgb(122, 124, 128)"
+                ></i
+              ></a>
+              <a href="#"
+                ><i
+                  class="fa-brands fa-linkedin"
+                  style="color: rgb(122, 124, 128)"
+                ></i
+              ></a>
+            </div>
+           </div>
+           <div class="other-mampa">
+            <div>
+              <h5>Useful Links</h5>
+              <p>Home</p>
+              <p>about Us</p>
+              <p>Services</p>
+              <p>Terms of conditions</p>
+              <p>Privacy Policy</p>
+            </div>
+            <div>
+              <h5>Our Services</h5>
+              <p>web design</p>
+              <p>Web Developement</p>
+              <p>Product Management</p>
+              <p>Marketing</p>
+              <p>Graphic Design</p>
+            </div>
+            <div>
+              <h5>Hic solutasetp</h5>
+              <p>Molestiae accusamus iure</p>
+              <p>Excepturi dignissimos</p>
+              <p>Suscipit distinctio</p>
+              <p>Dilecta</p>
+              <p>Sit quas consectetur</p>
+            </div>
+            <div>
+              <h5>Nobis illum</h5>
+              <p>Ipsam</p>
+              <p>Laudantium dolorum</p>
+              <p>Dinera</p>
+              <p>Trodelas</p>
+              <p>Flexo</p>
+            </div>
+           </div>
+          </div>
+
+        </div>
+
+        <hr>
+
+        <div class="copyright">
+          <p style="text-align: center;">© Copyright Mamba All Rights Reserved</p>
+        </div>
+
+
+    <button id="btn"><i class="fa-solid fa-arrow-up" style="color: #f9fafa;"></i></button>
+
+
+  
+    <script src="./js/all.min.js"></script>
+    <script src="./js/Mampa.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+
+  </body>
+</html>
