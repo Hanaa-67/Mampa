@@ -5,30 +5,30 @@ let mainDropdown = document.querySelector('.dropdown-item')
 let dropdown = document.querySelector('.dropdown a');
 
 dropdown.addEventListener('mouseover',function(){
-    dropdownList.classList.remove('hide');
+    dropdownList.classList.toggle('hide');
 });
     
-document.addEventListener('mouseout',function(){
-    dropdownList.classList.add('hide')
-});
+// document.addEventListener('mouseover',function(){
+//     dropdownList.classList.add('hide')
+// });
 
-dropdown.addEventListener('focus',function(){
-    dropdownList.classList.remove('hide')
+dropdown.addEventListener('click',function(){
+    dropdownList.classList.toggle('hide')
 
 });
 
 let deepDropdownList = document.querySelector('.deepDrop-list');
 let deepDropdown = document.querySelector('.deep_dropdown');
 
-deepDropdown.addEventListener('mouseover',function(){
-    deepDropdownList.classList.remove('hide');
-});
+// deepDropdown.addEventListener('mouseover',function(){
+//     deepDropdownList.classList.toggle('hide');
+// });
 deepDropdown.addEventListener('click',function(){
-    deepDropdownList.classList.remove('hide')
+    deepDropdownList.classList.toggle('hide')
 });
-document.addEventListener('mouseout',function(){
-    deepDropdownList.classList.add('hide')
-});
+// document.addEventListener('mouseout',function(){
+//     deepDropdownList.classList.add('hide')
+// });
 
 
 
@@ -47,8 +47,30 @@ document.addEventListener('mouseout',function(){
 
 
 
+// scroll
+let about = document.querySelector('.aboutMe');
+about.onclick = function(){
+    scroll(0,550)
+}
 
+let services = document.querySelector('.ourServices');
+services.onclick = function(){
+    scroll(0,2300)   
+}
 
+let portfolio = document.querySelector('.ourPortofolio');
+portfolio.onclick = function(){
+    scroll(0,3150) 
+}
+
+let team = document.querySelector('.ourTeam');
+team.onclick = function(){
+    scroll(0,4550)  
+}
+let contact = document.querySelector('.ourContact');
+contact.onclick = function(){
+    scroll(0,6050)  
+}
 
 
 

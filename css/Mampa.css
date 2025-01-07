@@ -335,7 +335,20 @@ nav{
 .division:hover p{
     color: #f5f9fc;
 }
-
+#myimg{
+    position: relative;
+}
+#play{
+    /* width: 50px;
+    height: 150px; */
+    font-size: 80px;
+    position: absolute;
+    right: 40%;
+    top: 50%;
+}
+#play:hover{
+    scale: 1.5;
+}
 /* no of clients */
 
 .clients{
@@ -470,14 +483,15 @@ span img{
 }
 .app{
     position: relative;
+    height: fit-content;
 }
 .description{
     width: 100%;
-    height: 110px;
+    height: auto;
     position: absolute;
     bottom: 0;
     background-color: #fff;
-    opacity: 70%;
+    opacity: 60%;
     text-align: start;
     padding: 2vh 3vw;
     font-size: medium;
@@ -808,6 +822,11 @@ a :hover{
     .team_img img{
         width: auto;
     }
+    #play{
+        font-size: 50px;
+        top: 60%;
+        right: 45%;
+    }
 
     
 }
@@ -859,6 +878,10 @@ a :hover{
     .mampa-footer{
         width: 80%;
     }
+    #play{
+        font-size: 50px;
+        top: 75%;
+    }
     
 }
 @media screen and (max-width: 320px){
@@ -868,6 +891,10 @@ a :hover{
     }
     .text p{
         font-size: x-small;
+    }
+    #play{
+        font-size: 50px;
+        top: 80%;
     }
 }
 
