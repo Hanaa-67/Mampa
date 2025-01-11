@@ -4,13 +4,6 @@ let dropdownList = document.querySelector('.drop-list');
 let mainDropdown = document.querySelector('.dropdown-item')
 let dropdown = document.querySelector('.dropdown a');
 
-dropdown.addEventListener('mouseover',function(){
-    dropdownList.classList.toggle('hide');
-});
-    
-// document.addEventListener('mouseover',function(){
-//     dropdownList.classList.add('hide')
-// });
 
 dropdown.addEventListener('click',function(){
     dropdownList.classList.toggle('hide')
@@ -20,15 +13,11 @@ dropdown.addEventListener('click',function(){
 let deepDropdownList = document.querySelector('.deepDrop-list');
 let deepDropdown = document.querySelector('.deep_dropdown');
 
-// deepDropdown.addEventListener('mouseover',function(){
-//     deepDropdownList.classList.toggle('hide');
-// });
+
 deepDropdown.addEventListener('click',function(){
     deepDropdownList.classList.toggle('hide')
 });
-// document.addEventListener('mouseout',function(){
-//     deepDropdownList.classList.add('hide')
-// });
+
 
 
 
@@ -50,26 +39,26 @@ deepDropdown.addEventListener('click',function(){
 // scroll
 let about = document.querySelector('.aboutMe');
 about.onclick = function(){
-    scroll(0,550)
+    scroll(0,530)
 }
 
 let services = document.querySelector('.ourServices');
 services.onclick = function(){
-    scroll(0,2300)   
+    scroll(0,2280)   
 }
 
 let portfolio = document.querySelector('.ourPortofolio');
 portfolio.onclick = function(){
-    scroll(0,3150) 
+    scroll(0,3130) 
 }
 
 let team = document.querySelector('.ourTeam');
 team.onclick = function(){
-    scroll(0,4550)  
+    scroll(0,4530)  
 }
 let contact = document.querySelector('.ourContact');
 contact.onclick = function(){
-    scroll(0,6050)  
+    scroll(0,6030)  
 }
 
 

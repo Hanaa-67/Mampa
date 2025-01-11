@@ -17,6 +17,7 @@
 }
 
 .nav-cont{
+    /* height: fit-content; */
     position: sticky;
     width: 100%;
     z-index: 500;
@@ -25,7 +26,7 @@
 
 }
 nav{
-    height: 5vh;
+    height: 7vh;
     background-color: var(--dark-grey);
     display: flex;
     justify-content: space-between;
@@ -104,19 +105,16 @@ nav{
 /* main-nav */
 .navbar{
     height: auto;
-
     background-color: #fff;
     font-size: larger;
     font-weight: 570;
     font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: medium;
-
-
 }
 .mampa h1{
+    margin-left: 6vw;
     color: var(--dark-grey);
     font-size: xx-large;
-    margin-left: 3vw;
 }
 
 .list a:hover{
@@ -145,8 +143,6 @@ nav{
     height: 80vh;
     display: flex;
     margin-top: 2vh;
-    /* background-size: cover; */
-    /* background-position: center; */
     position: relative;
     box-sizing: border-box;
 }
@@ -180,6 +176,7 @@ nav{
     font-weight: 500;
     font-size: larger;
     z-index: 10;
+    padding-bottom: 70vh;
 }
 .text h1{
     text-align: center;
@@ -201,18 +198,13 @@ nav{
     color: #f8f4f4;
     text-align: center;
     border: none;
-    width: 10vw;
+    width: 20vw;
     height: 5vh;
     /* margin: 8vh 2vw 4vh 18vw; */
     font-size: medium;
     letter-spacing: 1px;
-    margin-top: 8vh;
-    margin-left: 18vw;
-    position: absolute;
-    right: 45%;
-    top: 90%;
-    /* bottom: 1%; */
-
+    margin-top: 6vh;
+    padding: 0 3vw;
 }
 
 
@@ -273,7 +265,7 @@ nav{
     font-size: larger;
 }
 .about-sec{
-    padding-top: 6vh;
+    /* padding-top: 6vh; */
     display: flex;
     flex-wrap: wrap;
 
@@ -551,8 +543,8 @@ span img{
 }
 .personal_contact{
     position: absolute;
-    top: 39vh;
-    left: 7vw;
+    bottom: 14%;
+    left: 35%;
     display: none;
 }
 .name h4{
@@ -631,6 +623,7 @@ span img{
 }
 .address{
     width: 35vw;
+    height: fit-content;
 }
 .call,.email{
     width: 20vw;  
@@ -729,26 +722,54 @@ a :hover{
 
 
 /* media Query */
-@media screen and (max-width: 1000px) and (min-width: 769px){
+@media screen and (max-width: 1024px) and (min-width: 769px){
+    .caro{
+        height: 90vh;
+    }
     .slide button{
         width: 35%;
-        right: 40%;
+        margin-right: 4vw;
+        /* margin-bottom: 10vh; */
     }
     .text h1{
-        font-size: xx-large;
+        font-size: x-large;
+    }
+    .clients{
+        padding-top: 10vh;
+    }
+    
+}
+@media screen and (min-width:770px) and (max-width:1290px){
+    .personal_contact{
+        left: 13%;
+        bottom: 18%;
+        width: 100%;
+    }
+    #play{
+        top: 60%;
+    }
+}
+@media screen and (max-width:2560px) and (min-width:1441px){
+    h1,h2,h3,h4,h5,h6,p,span,a,.list,button{
+        font-size:  x-large;
+    }
+    .personal_contact{
+        top: 43vh;
+        left: 9vw;
     }
 }
 
 
 
+
 /* tablet */
- @media screen and (max-width: 768px){
+ @media screen and (max-width: 769px){
     .text{
-        width: 80%;
-        left: 15%;
+        width: 70%;
+        left: 16%;
     }
     .text h1{
-        font-size: xx-large;
+        font-size: x-large;
     }
     .text p{
         font-size: medium;
@@ -788,7 +809,8 @@ a :hover{
         width: 36vw;
     }
     .personal_contact{
-        top: 37vh;
+        left: 10vw;
+        bottom: 19%;
     }
     .asked{
         display: inline-block;
@@ -827,12 +849,47 @@ a :hover{
         top: 60%;
         right: 45%;
     }
+    .icon{
+        left: 44%;
+    }
+    .clients{
+        padding-top: 10vh;
+    }
+    .signal{
+        margin-left: 31vw;
+    }
 
+    .inputs button{
+        margin-left: 19vw;
+    }
+    .mampa-footer a{
+        margin: 0;
+    }
+    .slide button{
+        margin-right: 13vw;
+    }
     
+}
+
+@media screen and (min-width: 591px) and (max-width: 778px){
+    .signal {
+        margin-left: 13vw;
+    }
+}
+@media screen and (min-width: 400px) and (max-width: 590px){
+    .personal_contact{
+        left: 30vw;
+    }
+    .slide button{
+        margin-left: 4vw;
+    }
 }
 
 /* mobile */
 @media screen and (max-width: 590px){
+    .caro{
+        height: 90vh;
+    }
     .contact .social{
         display: none;
     }
@@ -841,7 +898,7 @@ a :hover{
     }
     .slide button{
         width: 35vw;
-        left: 5vw;
+        left: 8vw;
         top: 35vh;
     }
     .scale{
@@ -854,7 +911,7 @@ a :hover{
         width: 100%;
     }
     .signal{
-        margin-left: 33vw;
+        margin-left: 30vw;
     }
     #images1{
         display: inline-block;
@@ -862,15 +919,16 @@ a :hover{
     span img{
         width: 100%;
     }
+        span img{
+        margin: 2vh 0vh;
+    }
     .under_image{
         width: 100%;
     }
     .name{
         width: 95%;
     }
-    .personal_contact{
-        left:24vw
-    }
+
     .call ,.email{
         width: 100%;
         margin-bottom: 4vh;
@@ -882,15 +940,19 @@ a :hover{
         font-size: 50px;
         top: 75%;
     }
+    .asked h6{
+        width: 85%;
+    }
     
 }
 @media screen and (max-width: 320px){
     .slide button{
         top:35vh;
-        width: 40vw;
+        right: 50%;
+        width: 44vw;
     }
     .text p{
-        font-size: x-small;
+        font-size: small;
     }
     #play{
         font-size: 50px;
