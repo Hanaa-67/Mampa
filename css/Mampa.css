@@ -456,6 +456,7 @@ nav{
     /* background-color: rgb(62, 160, 240); */
     font-size: larger;
 }
+
 #titles .blue{
         background-color: var(--blue);
         color: #fff;
@@ -492,8 +493,6 @@ span img{
 .app:hover .description{
     display:block;
 }
-
-  
 
 
 /* team */
@@ -763,7 +762,7 @@ a :hover{
 
 
 /* tablet */
- @media screen and (max-width: 769px){
+@media screen and (max-width: 769px){
     .text{
         width: 70%;
         left: 16%;
@@ -865,13 +864,13 @@ a :hover{
     .mampa-footer a{
         margin: 0;
     }
-    .slide button{
-        margin-right: 13vw;
-    }
     
 }
 
-@media screen and (min-width: 591px) and (max-width: 778px){
+@media screen and (min-width: 490px) and (max-width: 778px){
+    .slide button{
+        margin-right: 20vw;
+    }
     .signal {
         margin-left: 13vw;
     }
@@ -942,6 +941,15 @@ a :hover{
     }
     .asked h6{
         width: 85%;
+    }
+    #sec-two{
+        display: block;
+    }
+    .description{
+        font-size: x-small;
+    }
+    .personal_contact{
+        left: 22vw;
     }
     
 }

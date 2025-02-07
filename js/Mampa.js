@@ -75,7 +75,7 @@ prevBtn.addEventListener('click',function(){
     slidePrev();
 
 });
- setInterval(function(){
+setInterval(function(){
     slideNext()
 },5000) 
 
@@ -315,15 +315,3 @@ upward.addEventListener('click',function(){
     })
 })
 
-
-
-
-
-
-
-
-
-
-
-
-       
